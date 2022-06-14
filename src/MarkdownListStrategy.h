@@ -7,6 +7,10 @@
 
 #include "IListStrategy.h"
 
+/** Concrete Markdown strategies implement the algorithm while following
+ * the base strategy interface. The interface makes them
+ * interchangeable in the context.
+ */
 class MarkdownListStrategy : public IListStrategy {
 public:
     MarkdownListStrategy();

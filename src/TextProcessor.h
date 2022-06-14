@@ -14,6 +14,9 @@
 
 using namespace std;
 
+/**
+ * The context defines the interface of interest to clients.
+ */
 class TextProcessor {
     ostringstream ossData;
     IListStrategy* listStrategy{};

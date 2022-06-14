@@ -8,6 +8,10 @@
 
 #include "IListStrategy.h"
 
+/** Concrete HTML strategies implement the algorithm while following
+ * the base strategy interface. The interface makes them
+ * interchangeable in the context.
+ */
 class HtmlListStrategy : public IListStrategy {
 public:
     HtmlListStrategy();
